@@ -45,7 +45,6 @@
     background-repeat: no-repeat;
   }
 
-
 /* Media Queries */
 
 /* ================================================================================================= */
@@ -118,15 +117,6 @@
     padding-right: 0.5cm;
   }
 
-  .bb-login #login-block  {
-    background: none;
-    padding: 0.14cm 1.0cm 1.0cm 1.0cm;
-  }
-  .bb-login #login-form {
-    background: none;
-    filter: none;
-  }
-
   .login-page-announcements {
     float: left;
     width: 40.5%;
@@ -145,8 +135,7 @@
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
-      
-    clip-path: polygon(0 0, 55% 0, 45% 100%, 0 100%);
+    
     position: absolute;
     content: "";
     left: 0;
